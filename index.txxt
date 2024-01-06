@@ -1,0 +1,23 @@
+//             if (!checkWinner()) {
+            //             alert(`${playerX} is the winner!`);
+            //             if(playerX === "O"){
+            //                 p1.innerText++
+                            
+            //             }else{
+            //                 p2.innerText++;
+                        
+            //             };
+            //             resetGame();
+            //         } else if (!isBoardFull()) {
+            //             alert("It's a draw!");
+                        
+            //             ties.innerText++
+            //             resetGame();
+            //         } else {
+            //             // let span = document.getElementById("span");
+            //             playerX = (playerX === "X") ? "O" : "X";
+            //             style = (style === "#f2b137")? "#31C3BD" : "#f2b137";
+
+            //             span.innerText = playerX + " ";
+            //         }  
+            //}

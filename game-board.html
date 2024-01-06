@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/26e27aa806.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="game-board.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row-1">
+            <div class="h1">
+                <h1 style="color: #31c3bd;">X</h1>
+                <h1 style="color: #f2b137;">O</h1>
+            </div>
+            <div>
+                <button style="color: #a8bfc9;">
+                    <span id="span">X </span>TURN
+                </button>
+            </div>
+            <div>
+                <button style="color: #1f3641;" class="refresh">
+                    <i class="fa-solid fa-rotate-right"></i>
+                </button>
+            </div>
+        </div>
+        <div class="board-row">
+            <div class="board"></div>
+            <div class="board"></div>
+            <div class="board"></div>
+            <div class="board"></div>
+            <div class="board"></div>
+            <div class="board"></div>
+            <div class="board"></div>
+            <div class="board"></div>
+            <div class="board"></div>
+        </div>
+        <div class="l-row">
+            <div>
+                <p>X (YOU)</p>
+                
+                <p id="p-1">0</p>
+            </div>
+            <div>
+                <p>TIES</p>
+                <p id="ties">0</p>
+            </div>
+            <div>
+                <p>O (CPU)</p>
+                <p id="p-2">0</p>
+            </div>
+        </div>
+    </div>
+    <div class="out-container">
+        <div>
+            <h1 class="h1-1">RESTART GAME</h1>
+            <div class="btns">
+              <button class="btns-1" style="background-color: #A8BFC9;color: #1A2A33;">NO, CANCEL</button>
+              <button class="btns-2" style="background-color: #F2B137;color: #303937;">YES, RESTART</button>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="game.js"></script>
+</body>
+</html>
