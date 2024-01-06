@@ -1,1 +1,6 @@
 # tic-tac
+#I built a tic tac toe game as recommended by front end mentor.
+#It has lot of cool stuffs,nice UI. It offers multiplayer and playing with a computer.... 
+
+
+.....in the future....
